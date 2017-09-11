@@ -10,21 +10,21 @@ Default test mode On... You have to confirm to make sure the transaction is appl
 
 vote from a text file list based on lisk address
 
-`lisk-vote -HostUrl https://server.example.com -address 7499683620762904066L -Secret 'gsdfgsdfg' -SecondSecret 'agasdfasdf' -file 'C:\Users\whatever\documents\vote.log' -DataType address -verbose`
+`lisk-vote -HostUrl https://server.example.com -address <YOUR_LISK_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType address -verbose`
 
 vote from a text file list based on Delegate Names
 
-`lisk-vote -HostUrl https://server.example.com -address 7499683620762904066L -Secret 'gsdfgsdfg' -SecondSecret 'agasdfasdf' -file 'C:\Users\whatever\documents\vote.log' -DataType DelegateName -verbose`
+`lisk-vote -HostUrl https://server.example.com -address <YOUR_LISK_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType DelegateName -verbose`
 
 
 # Remove Voting mode 
 
 Remove from a text file list based on lisk address 
 
-`lisk-vote -HostUrl https://server.example.com -address 7499683620762904066L -Secret 'gsdfgsdfg' -SecondSecret 'agasdfasdf' -file 'C:\Users\whatever\documents\devote.log' -DataType address -Remove:$true -verbose`
+`lisk-vote -HostUrl https://server.example.com -address <YOUR_LISK_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType address -Remove:$true -verbose`
 
 Remove from a text file list based on Delegate Names
 
-`lisk-vote -HostUrl https://server.example.com -address 7499683620762904066L -Secret 'gsdfgsdfg' -SecondSecret 'agasdfasdf' -file 'C:\Users\whatever\documents\devote.log' -DataType DelegateName -Remove:$true -verbose`
+`lisk-vote -HostUrl https://server.example.com -address <YOUR_LISK_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType DelegateName -Remove:$true -verbose`
 
  
